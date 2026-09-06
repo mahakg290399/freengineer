@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="freengineer at freengineer.me — a human layer between companies and LLMs." />
+  <title>freengineer — human layer, currently loading</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-orb" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="freengineer home"><span>fre</span><i><strong class="logo-e">e</strong>ngineer</i><b>®</b></a>
+    <div class="header-center">
+      <div class="header-note" id="header-note">a portfolio / a lab / a tiny career crisis</div>
+      <nav class="mode-switch" aria-label="Choose presentation mode">
+        <span>choose your interface</span>
+        <button class="mode-button is-active" data-mode="fun" type="button">fun way</button>
+        <button class="mode-button" data-mode="professional" type="button">professional way</button>
+      </nav>
+      <div class="theme-switch" aria-label="Choose color theme">
+        <span>theme</span>
+        <button class="theme-button is-active" data-theme-choice="light" type="button">light</button>
+        <button class="theme-button" data-theme-choice="dark" type="button">dark</button>
+      </div>
+    </div>
+    <a class="pill-link" href="#contact">say hello <span>↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> currently figuring it out</p>
+        <h1 id="hero-title">the human<br /><em>layer</em> between<br />you &amp; AI.</h1>
+        <p class="hero-intro" id="hero-intro">I used to bring the intelligence to the table. Then the table got an LLM. So now I bring context, taste, and the occasional good idea.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" id="hero-primary" href="#offer">what I can do <span>↓</span></a>
+          <a class="text-link" id="hero-secondary" href="#manifesto">read the situation <span>↘</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal reveal-delay" aria-label="Decorative animated diagram">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="core"><span>H</span></div>
+        <span class="satellite sat-one">context</span>
+        <span class="satellite sat-two">taste</span>
+        <span class="satellite sat-three">shipping</span>
+        <span class="art-caption" id="art-caption">human-in-the-loop<br />loop-in-the-human</span>
+      </div>
+      <div class="scroll-cue"><span>scroll to investigate</span><i>↓</i></div>
+    </section>
+
+    <section class="marquee" aria-label="freengineer services">
+      <div class="marquee-track" id="marquee-copy"><span>build weird useful things</span><b>✳</b><span>build weird useful things</span><b>✳</b><span>build weird useful things</span><b>✳</b></div>
+    </section>
+
+    <section class="manifesto section-pad" id="manifesto">
+      <div class="section-label reveal"><span>01</span><span>the honest bit</span></div>
+      <div class="manifesto-grid">
+        <h2 class="reveal" id="manifesto-title">Nobody knows<br /><span>what happens next.</span></h2>
+        <div class="manifesto-copy reveal reveal-delay" id="manifesto-copy">
+          <p>Not the companies. Not the LLMs. Definitely not me. In two years, software engineering might be a job, a button, or a very confident autocomplete.</p>
+          <p>For now, I am the person between the big idea and the blinking cursor. I ask the boring questions. I make the things work. I explain what the robot meant.</p>
+          <p class="hand-note">— seems like a fair trade, tbh</p>
+        </div>
+      </div>
+      <div class="quote-card reveal"><span class="quote-mark">“</span><p id="quote-text">Jack of all trades.<br /><strong>Master of shipping.</strong></p><span class="quote-by" id="quote-by">a slightly updated proverb</span></div>
+    </section>
+
+    <section class="offer section-pad" id="offer">
+      <div class="section-label reveal"><span>02</span><span>the offer</span></div>
+      <div class="offer-heading reveal"><h2 id="offer-title">Need an engineer?</h2><p id="offer-subtitle">Cool. I am accepting applications from problems.</p></div>
+      <div class="offer-grid">
+        <article class="offer-card offer-card-main reveal"><span class="card-number">01 / 03</span><h3 id="offer-card-title-1">Tell me the thing.</h3><p id="offer-card-copy-1">A product, a mess, a half-formed thought, a dashboard that should have been an email. I will turn it into something that runs.</p><span class="card-arrow">↗</span></article>
+        <article class="offer-card reveal reveal-delay"><span class="card-number">02 / 03</span><h3 id="offer-card-title-2">First 20M tokens<br /><em>are on me.</em></h3><p id="offer-card-copy-2">Free engineering, with a freemium-ish catch. After that, you pay for the tokens I use. That is the whole pricing page.</p><span class="card-arrow">∞</span></article>
+        <article class="offer-card reveal reveal-delay-2"><span class="card-number">03 / 03</span><h3 id="offer-card-title-3">Tip if you want.</h3><p id="offer-card-copy-3">I keep the lessons, not your secrets. Your project helps build my resume repo. Your data stays yours. Pinky promise, but professional.</p><span class="card-arrow">✳</span></article>
+      </div>
+    </section>
+
+    <section class="stack section-pad">
+      <div class="stack-inner reveal">
+        <div class="section-label light"><span>03</span><span>the stack of hats</span></div>
+        <h2 id="stack-title">AWS once.<br /><span>Data always.<br /><em>Anything next.</em></span></h2>
+        <p class="stack-blurb" id="stack-blurb">Clouds, pipelines, event-driven things, backends, extensions, batch jobs — I have touched most corners of software and left fingerprints on the rest.</p>
+        <div class="tags" id="stack-tags"><span>cloud</span><span>data</span><span>backend</span><span>events</span><span>automation</span><span>whatever works</span></div>
+      </div>
+      <div class="stack-stamp">ANY<br />ENGINEER<br />WILL DO</div>
+    </section>
+
+    <section class="closing section-pad">
+      <p class="eyebrow reveal"><span class="status-dot"></span> open to interesting problems</p>
+      <h2 class="reveal" id="closing-title">Let’s make something<br /><em>slightly unreasonable.</em></h2>
+      <a class="button button-acid reveal" id="closing-primary" href="#contact">start a conversation <span>↘</span></a>
+      <div class="contact-dock" id="contact">
+        <span>best way to reach me</span>
+        <a href="mailto:mahakg290399@gmail.com">mahakg290399@gmail.com <b>↗</b></a>
+      </div>
+      <p class="closing-foot">freengineer.me / made by a human, assisted by machines</p>
+    <a class="resume-link" href="https://drive.google.com/uc?export=download&amp;id=1_V9uDn5LDBpnvY9kRwAfkjxKNaGgFMva" target="_blank" rel="noopener">download resume <span>↓</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>© 2026 freengineer</span><span>the future is loading...</span><span>↑ <a href="#top">back to top</a></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
