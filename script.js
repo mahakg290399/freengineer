@@ -36,6 +36,11 @@ const modeCopy = {
     'stack-title': 'AWS once.<br /><span>Data always.<br /><em>Anything next.</em></span>',
     'stack-blurb': 'Clouds, pipelines, event-driven things, backends, extensions, batch jobs — I have touched most corners of software and left fingerprints on the rest.',
     'stack-tags': '<span>cloud</span><span>data</span><span>backend</span><span>events</span><span>automation</span><span>whatever works</span>',
+    'projects-title': 'Projects in<br /><em>progress.</em>',
+    'projects-subtitle': 'Live work, not a graveyard of mockups. Click through.',
+    'project-status': 'shipping on Oracle Always Free',
+    'project-name': 'LogScope AI',
+    'project-copy': 'SRE log aggregation, Drain3 templates, deterministic anomaly detection, and an AI incident copilot. Kafka, SQLite WAL, FastAPI dashboard. The whitepaper is the full story.',
     'closing-title': 'Let’s make something<br /><em>slightly unreasonable.</em>',
     'closing-primary': 'start a conversation <span>↘</span>'
   },
@@ -62,6 +67,11 @@ const modeCopy = {
     'stack-title': 'Cloud systems.<br /><span>Data products.<br /><em>Applied AI.</em></span>',
     'stack-blurb': 'Experience across AWS, data processing, event-driven architecture, backend development, automation, browser extensions, and AI-assisted engineering workflows.',
     'stack-tags': '<span>AWS</span><span>data platforms</span><span>backend</span><span>event systems</span><span>applied AI</span><span>architecture</span>',
+    'projects-title': 'Work currently<br /><em>in production.</em>',
+    'projects-subtitle': 'Shipped systems you can open, not slide decks.',
+    'project-status': 'live on Oracle Always Free',
+    'project-name': 'LogScope AI',
+    'project-copy': 'Enterprise-style SRE log intelligence: sanitization, template mining, anomaly detection, and AI-assisted incident triage. Open the live dashboard or read the technical whitepaper.',
     'closing-title': 'Let’s build something<br /><em>worth maintaining.</em>',
     'closing-primary': 'start a conversation <span>↘</span>'
   }
