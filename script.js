@@ -41,6 +41,10 @@ const modeCopy = {
     'project-status': 'shipping on Oracle Always Free',
     'project-name': 'LogScope AI',
     'project-copy': 'SRE log aggregation, Drain3 templates, deterministic anomaly detection, and an AI incident copilot. Kafka, SQLite WAL, FastAPI dashboard. The whitepaper is the full story.',
+    'project-status-2': 'tinder for your downloads folder',
+    'project-name-2': 'DocSwipe',
+    'project-copy-2': 'A private, offline-first Android app for cleaning up documents safely. Groups files by last-modified month into a swipe deck — left to stage deletion, right to keep, skip to decide later. SHA-256 duplicate detection, in-app PDF + Office + text preview, zero cloud, zero account.',
+    'project-tags-2': '<span>kotlin</span><span>compose</span><span>offline-first</span><span>room</span><span>sha-256</span>',
     'closing-title': 'Let’s make something<br /><em>slightly unreasonable.</em>',
     'closing-primary': 'start a conversation <span>↘</span>'
   },
@@ -72,6 +76,10 @@ const modeCopy = {
     'project-status': 'live on Oracle Always Free',
     'project-name': 'LogScope AI',
     'project-copy': 'Enterprise-style SRE log intelligence: sanitization, template mining, anomaly detection, and AI-assisted incident triage. Open the live dashboard or read the technical whitepaper.',
+    'project-status-2': 'offline-first Android / document triage',
+    'project-name-2': 'DocSwipe',
+    'project-copy-2': 'Local document review grouped by last-modified month. Swipe-based triage with undo, byte-identical duplicate detection via SHA-256, and offline rendering for PDF, Office, TXT and CSV. No cloud upload, no account, deletion only after explicit review.',
+    'project-tags-2': '<span>Kotlin</span><span>Compose</span><span>Room</span><span>offline rendering</span><span>duplicate detection</span>',
     'closing-title': 'Let’s build something<br /><em>worth maintaining.</em>',
     'closing-primary': 'start a conversation <span>↘</span>'
   }
